@@ -9,7 +9,8 @@ class Window:
     draw_group = pygame.sprite.Group()
 
     def draw(self):
-        pygame.display.set_caption('Meu Super Jogo')
+        pygame.display.set_caption('The Aventure of Slime Man')
+
         self.display.fill([46, 46, 46])
         self.render_elements()
 
