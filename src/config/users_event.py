@@ -22,7 +22,7 @@ class UsersEvent:
         if keys[pygame.K_d]:
             self.player.moving(1, 0)
         elif keys[pygame.K_a]:
-            self.player.moving(0, -1)
+            self.player.moving(0, 1)
 
         if self.exit:
             return True

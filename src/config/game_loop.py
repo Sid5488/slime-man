@@ -22,5 +22,5 @@ class GameLoop:
 
     def update(self):
         self.window.draw()
-        self.window.group_of_draw()
+
         pygame.display.update()
