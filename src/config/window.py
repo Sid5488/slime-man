@@ -11,7 +11,7 @@ class Window:
     def draw(self):
         pygame.display.set_caption('Meu Super Jogo')
         self.display.fill([46, 46, 46])
-        self.group_of_draw()
+        self.render_elements()
 
     def render_elements(self, elements=[]):
         for element in elements:
